@@ -1,0 +1,255 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <!-- google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
+      <link rel="font style" href="./assets/ArialCE.ttf"/>
+      <link rel="stylesheet" href="./styles.css/styles.css" />
+    
+      <title>Properteys</title>
+    </head>
+    <body>
+      <div class="countainer">
+        <div class="header">
+          <section class="heading"><h2>Properteys</h2></section>
+          <section class="nav">
+            <ul>
+              <li><a href="#"> home</a></li>
+              <li><a href="#">properties</a></li>
+              <li><a href="#"> blog</a></li>
+              <li><a href="#">contact</a></li>
+              <li><a href="#">
+                <img src="./assets/user.png" class="login" alt="this ia an image" />
+                log in | register</a>
+                </li>
+            </ul>
+          </section>
+        </div>
+        <!-- main contents -->
+        <div class="product-info">
+          <section class="product-infoBigImage">
+            <img src="./assets/house.jfif" alt="this ia an image" />
+            <section >
+              <ul class="product-infoSmallImages-items">
+                <li><img src="./assets/inside of a house1.jfif" alt="inside house" /></li>
+                <li><img src="./assets/images(1)" alt="house" /></li>
+                <li><img src="./assets/images(5)" alt="house with swimming pool" /></li>
+                <li><img src="./assets/mombasa house 2.jfif" alt="this ia an image" /></li>
+              </ul>
+            </section>
+          </section>
+
+          <section class="product-infoContents">
+            <h4 class="headerInfo">bevarly glen 924 bel air  rd</h4>
+            <h6 class='product-infoContentsStreet'>los angeles</h6>
+            <h4 class="product-infoContentsCash">$ 150,000,000</h4>
+            <h6 class="product-infoContentsOverview">overview</h6>
+            <ul>
+              <li class="product-infoContentsOverview-items">12 Bedrooms</li>
+              <li class="product-infoContentsOverview-items">21 bathrooms</li>
+              <li class="product-infoContentsOverview-items">38,000 sqft</li>
+              <li class="product-infoContentsOverview-items">ample garage available</li>
+              <li class="product-infoContentsOverview-items">swimming pool available</li>
+              <li class="product-infoContentsOverview-itemss">multi-family residential</li>
+            </ul>
+            <h6 class="product-infoContentsProperty-description">property description</h6>
+            <p class="product-infoContentsProperty-descriptionMoreInfo">
+              Luxury developer Bruce Makowsky's greatest masterpiece. Located in the confines of ultra-exclusive Bel 
+            Air Enclave.The pinnacle of splendor & luxury. 38k sqft new constrauction home +17k sqft of 
+            entertainment decks, 2 master suites, 10 over-sized V.I.P guest suites, 21 luxurious bathrooms, 3 gourmet 
+            kichens, 5 bars, massage studio/wellness spa, state-of-the-art fitness center, 85-foot glass tile infinity 
+            swimming pool, 40-seat 4k Dolby Atmos Theater, 4 lane bowling alley/lounge, auto gallery W/cars worth 
+            more than $30mm, 7-person full time staff, over 100 curated art installations, outdoor pop up theater, 2
+            fully-stocked champagne/wine cellars, massive candy wall, the most advanced home tech system in the 
+            world. Astonishing array of amenities & bespoke items from around the word, 4 meticu...  
+            </p> 
+            <hr class="product-infoContentsProperty-descriptionMoreInfo-line"/>
+            <P class="product-infoContentsProperty-descriptionMoreLike">LIKE. SHARE</P>
+          </section>
+        </div>
+        <hr class="aminatesLine">
+        <div class="aminates">
+          <h3>see aminates around you</h3></div><hr class="aminates-Line">
+        <!-- google map -->
+        <div class="map"><p>google map</p></div>
+        <script>
+          var map;
+          function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+              center: {lat: -34.397, lng: 150.644},
+              zoom: 8
+            });
+          }
+        </script>
+              <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEwYHGvTsYkneubePBBpMKBCu1xCSS0Vs&callback=initMap"
+              async defer></script>
+
+        <!-- similar properties -->
+        <div class="similar-propertiesHead"><hr><h3>similar properties</h3></div>
+        <div class="similar-properties">
+          <section class="similar-propertiesImageLeft">
+              <img src="./assets/house 1.png" alt="this ia an image"/>
+              <div class="similar-propertiesItems-background"><p>$ 499,000</p></div>
+            <h4 class="similar-properties-items">jefferson park 2128 n clay st</h4>
+            <ul class="similar-properties-itemsIcon" >
+              <li><img src="./assets/double-bed.png" alt="a bed image"/>  2 bedrooms </li>
+            <li><img src="./assets/shower-and-tub.png"   alt="a shower-and-tub"/> 2 bathrooms</li>
+            <li>1466 ftsq</li>
+          </ul >
+            <h4 class="similar-propertiesItems">jefferson park 2128 n clay st</h4>
+            <p>COLORADO, Denver</p><hr>
+            <P><ul class="similar-properties-itemsIcon" >
+              <li><img src="./assets/love icon.png" alt=" heart image"></li>
+              <li><img src="./assets/share.png" alt="share image"></li>
+            </ul>
+          </P>
+          <hr>
+          </section>
+          
+          <section class="similar-propertiesImageLeft">
+            <img src="./assets/house2.jfif" alt="this ia an image" />
+            <div class="similar-propertiesItems-background"><p>$ 2,600,000</p></div>
+            <h4 class="similar-properties-items">paradise 2818 e quail ave</h4>
+            <ul class="similar-properties-itemsIcon" >
+              <li><img src="./assets/double-bed.png"alt="a bed image"/> 10 bedrooms </li>
+            <li><img src="./assets/shower-and-tub.png"> 6 bathrooms</li>
+            <li>6155 ftsq</li>
+          </ul>
+            <h4 class="similar-propertiesItems">paradise 2818 e quail ave</h4>
+            <p>NAVADA, Las Vegas</p><hr>
+            <P>
+              <ul class="similar-properties-itemsIcon" >
+              <li><img src="./assets/love icon.png" alt=" heart image"></li>
+              <li><img src="./assets/share.png" alt="share image"></li>
+            </ul>
+          </P><hr>
+          </section>
+
+          <section class="similar-propertiesImageRight">
+            <img src="./assets/inside of a house3.jfif" alt="this ia an image" />
+            <div class="similar-propertiesItems-background"><p>$ 650,000</p></div>
+            <h4 class="similar-properties-items">4047 ponderosa dr</h4>
+            <ul class="similar-properties-itemsIcon" >
+              <li><img src="./assets/double-bed.png" alt="a bed image"/> 4 bedrooms </li>
+            <li><img src="./assets/shower-and-tub.png"> 3 bathrooms</li>
+            <li>1937 ftsq</li>
+          </ul>
+            <h4 class="similar-propertiesItems">4047 ponderosa dr</h4>
+            <p>COLORADO, Evergreen</p><hr>
+            <P><ul class="similar-properties-itemsIcon" >
+              <li><img src="./assets/love icon.png" alt=" heart image"></li>
+              <li><img src="./assets/share.png" alt="share image"></li>
+            </ul>
+          </P><hr>
+          </section>
+          
+          <section class="similar-propertiesImageRight">
+            <img src="./assets/mombasa house 2.jfif" alt="this ia an image" />
+            <div class="similar-propertiesItems-background"><p>$ 160,000</p></div>
+            <h4 class="similar-properties-items">spring valley 4865 torrey pine ...</h4>
+            <ul class="similar-properties-itemsIcon">
+              <li><img src="./assets/double-bed.png" alt="a bed image"/>2 bedrooms </li>
+            <li><img src="./assets/shower-and-tub.png"> 2 bathrooms</li>
+            <li>569  ftsq</li>
+          </ul>
+            <h4 class="similar-propertiesItems">spring valley 4865 torrey pine ...</h4>
+            <p>NAVADA, Las Vegas</p><hr>
+            <P><ul class="similar-properties-itemsIcon" >
+              <li><img src="./assets/love icon.png" alt=" heart image"></li>
+              <li><img src="./assets/share.png" alt="share image"></li>
+            </ul>
+          </P><hr>
+          </section>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+
+          
+          <section class="relocation-experts">
+            <h4>relocation experts</h4>
+            <ul>
+              <li class="relocation-expert-items">hardware stores</li>
+              <li class="relocation-expert-items">movers</li>
+              <li class="relocation-expert-items">lock smiths</li>
+              <li class="relocation-expert-items">doctors</li>
+              <li class="relocation-expert-items">schools</li>
+              <li class="relocation-expert-items">restaurant</li>
+              <li class="relocation-expert-items">appliance sellers</li>
+              <li class="relocation-expert-items">cleaning services</li>
+              <li class="relocation-expert-items">contractors</li>
+              <li class="relocation-expert-items">decorators</li>
+              <li class="relocation-expert-items">dentists</li>
+            </ul>
+          </section>
+
+          <section class="property-experts">
+            <h4>property experts</h4>
+            <ul>
+              <li class="property-experts-items">real estate brokers</li>
+              <li class="property-experts-items">morgage brokers</li>
+              <li class="property-experts-items">insurance brokers</li>
+              <li class="property-experts-items">lawyers</li>
+              <li class="property-experts-items">appraisers</li>
+              <li class="property-experts-items">morgage bankers</li>
+              <li class="property-experts-items">property managers</li>
+              <li class="property-experts-items">title companies</li>
+            </ul>
+          </section>
+
+          <section class="property-type">
+            <h4>property types</h4>
+            <ul>
+              <li class="property-type-items">apartments</li>
+              <li class="property-type-items">house</li>
+              <li class="property-type-items">bungalow</li>
+              <li class="property-type-items">commercial realestate</li>
+              <li class="property-type-items">multi-family residential</li>
+              <li class="property-type-items">condominiuns & co-ops</li>
+              <li class="property-type-items">fraction & timeshares</li>
+              <li class="property-type-items">land</li>
+            </ul>
+
+            <h4>owership options</h4>
+            <ul>
+              <li class="property-type-items">for sale</li>
+              <li class="property-type-items">for lease</li>
+              <li class="property-type-items">to let</li>
+            </ul>
+          </section>
+
+          <section class="subscribeToRecieve">
+            <h4>subscribe to receive updates & alerts</h4>
+            <form action="">
+              <input class='subscribeToRecieve-input' action="email" placeholder="YOUR EMAIL ADDRESS" /><button
+                action="submit"> SUBSCRIBE</button>
+            </form>
+            
+            <h4>join our social networks</h4>
+            <div class="socialNetworks"></div>
+              <ul>
+                <li class="socialNetworks-items">
+                  <img src="./assets/facebook with white background.png" alt="facebook" />
+                </li>
+                <li class="socialNetworks-items"><img src="./assets/twitter icon with a dack background.png" alt="twitter" /></li>
+                <li class="socialNetworks-items">
+                  <img src="./assets/new instergram.png" alt="instergram" />
+                </li>
+                <li class="socialNetworks-items"><img src="./assets/youtube icon.png" alt="youTube" /></li>
+                <li class="socialNetworks-items"><img src="./assets/likedin 1 image.png" alt="linedin" /></li>
+              </ul>
+            </div>
+          </section>
+          
+        </div>
+        <section class="copyRight"><p class="fab fa-copyright  "><hr>
+          Copyright © 2019 Properteys.inc all rights reserved terms of use | privacy policy.</p>
+          <p>brooklyn,new york 11203 (1-718-535-7711)</p>
+          <p>Developed by jamodesigns...</p>
+        </section>
+      </div>
+    </body>
+  </html>
