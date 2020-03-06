@@ -63,8 +63,8 @@ body {
 }
 /* log in & registration image */
 .nav ul li img {
-  width: 20px;
-  height: 15px;
+  width: 12px;
+  height: 10px;
   padding-right: 5px;
   padding-top: 16px;
 }
@@ -308,8 +308,7 @@ body {
   width: 80%;
   /* border: red solid thin; */
   margin: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 15px;
   background-color: #3d3d3b;
   color: whitesmoke;
   text-transform: uppercase;
