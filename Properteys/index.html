@@ -8,16 +8,23 @@
       <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
       <link rel="font style" href="./assets/ArialCE.ttf"/>
       <link rel="stylesheet" href="./styles/styles.css" />
+
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     
       <title>Properteys</title>
     </head>
     <body>
       <div class="countainer">
         <div class="header">
+          
           <section class="heading"><h2><i>Properteys</i></h2></section>
           <section class="nav">
+            <input type="checkbox" id="check"></input>
+            <label for="check" class=" checkbtn">
+              <i class='fas fa-align-justify'></i>
+            </label>
             <ul>
-              <li><a href="#"> home</a></li>
+              <li><a class="active" href=""> home</a></li>
               <li><a href="#">properties</a></li>
               <li><a href="#"> blog</a></li>
               <li><a href="#">contact</a></li>
@@ -28,6 +35,7 @@
             </ul>
           </section>
         </div>
+      
         <!-- main contents -->
         <div class="product-info">
           <section class="product-infoBigImage">
@@ -75,7 +83,8 @@
           <h3><hr class="aminatesLine">see aminates around you<hr class="aminates-Line"></h3> 
         </div>
         <!-- google map -->
-        <div class="map"><p>google map</p></div>
+        <div class="map">
+          <p>google map</p>
         <script>
           var map;
           function initMap() {
@@ -87,53 +96,61 @@
         </script>
               <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEwYHGvTsYkneubePBBpMKBCu1xCSS0Vs&callback=initMap"
               async defer></script>
+        </div>
+          
 
         <!-- similar properties -->
         <div class="similar-propertiesHead"><h3><hr class="similarPropertiesLine">similar properties<hr class="similarProperties-Line"></h3>
         </div>
         <div class="similar-properties">
-          <section class="similar-propertiesImageLeft">
-           
-              <img src="./assets/house 1.png" alt="this ia an image"/>
-              <div class="similar-propertiesItems-background"><p>$ 499,000</p></div>
-            <h4 class="similar-properties-items">jefferson park 2128 n clay st</h4>
-            <ul class="similar-properties-items-Icon" >
-              <li><img src="./assets/new-bed icon.jfif" alt="a bed image"/>2 bedrooms </li>
-            <li><img src="./assets/red-bathtub icon.jfif"   alt="a shower-and-tub"/>2 bathrooms</li>
-            <li>1466 ftsq</li>
-          </ul >
-            <h4 class="similar-propertiesItems">jefferson park 2128 n clay st</h4>
-            <p  class="similar-propertiesItems-para">COLORADO, Denver</p><hr>
-            <P ><ul class="similar-properties-itemsIcon" >
-              <li><img src="./assets/new heart icon.png" alt=" heart image"></li>
-              <li><img src="./assets/new share icon.png" alt="share image"></li>
-            </ul>
-          </P>
-          <hr>
-          </section>
-          
-          <section class="similar-propertiesImageLeft">
-            <img src="./assets/house2.jfif" alt="this ia an image" />
-            <div class="similar-propertiesItems-background"><p>$ 2,600,000</p></div>
-            <h4 class="similar-properties-items">paradise 2818 e quail ave</h4>
-            <ul class="similar-properties-items-Icon" >
-              <li><img  src="./assets/new-bed icon.jfif" alt="a bed image"/> 10 bedrooms </li>
-            <li><img src="./assets/red-bathtub icon.jfif"  alt="a shower-and-tub"/> 6 bathrooms</li>
-            <li>6155 ftsq</li>
-          </ul>
-            <h4 class="similar-propertiesItems">paradise 2818 e quail ave</h4>
-            <p  class="similar-propertiesItems-para">NAVADA, Las Vegas</p><hr>
-            <P>
-              <ul class="similar-properties-itemsIcon" >
+          <div class="similar-propertiesLeft-left">
+
+            <section class="similar-propertiesImageLeft-left" ></section>
+            <section class="similar-propertiesItemsLeft-left"> 
+              <section class="similar-propertiesItems-background"><p>$ 499,000</p></section>
+               <h4 class="similar-properties-items">jefferson park 2128 n clay st</h4>
+              <ul class="similar-properties-items-Icon" >
+                <li><img src="./assets/new-bed icon.jfif" alt="a bed image"/>2 bedrooms </li>
+              <li><img src="./assets/red-bathtub icon.jfif"   alt="a shower-and-tub"/>2 bathrooms</li>
+              <li>1466 ftsq</li>
+            </ul >
+              <h4 class="similar-propertiesItems">jefferson park 2128 n clay st</h4>
+              <p  class="similar-propertiesItems-para">COLORADO, Denver</p><hr>
+              <P ><ul class="similar-properties-itemsIcon" >
                 <li><img src="./assets/new heart icon.png" alt=" heart image"></li>
                 <li><img src="./assets/new share icon.png" alt="share image"></li>
-            </ul>
-          </P><hr>
+              </ul>
+            </P>
+            <hr>
           </section>
+          </div>
 
-          <section class="similar-propertiesImageRight">
-            <img src="./assets/inside of a house3.jfif" alt="this ia an image" />
-            <div class="similar-propertiesItems-background"><p>$ 650,000</p></div>
+          <div class="similar-propertiesLeft">
+            <section class="similar-propertiesImageLeft" ></section>
+            <section class="similar-propertiesItemsLeft">
+              <div class="similar-propertiesItems-background"><p>$ 2,600,000</p></div>
+              <h4 class="similar-properties-items">paradise 2818 e quail ave</h4>
+              <ul class="similar-properties-items-Icon" >
+                <li><img  src="./assets/new-bed icon.jfif" alt="a bed image"/> 10 bedrooms </li>
+              <li><img src="./assets/red-bathtub icon.jfif"  alt="a shower-and-tub"/> 6 bathrooms</li>
+              <li>6155 ftsq</li>
+            </ul>
+              <h4 class="similar-propertiesItems">paradise 2818 e quail ave</h4>
+              <p  class="similar-propertiesItems-para">NAVADA, Las Vegas</p><hr>
+              <P>
+                <ul class="similar-properties-itemsIcon" >
+                  <li><img src="./assets/new heart icon.png" alt=" heart image"></li>
+                  <li><img src="./assets/new share icon.png" alt="share image"></li>
+              </ul>
+            </P>
+            <hr>
+            </section>
+          </div>
+
+          <div class="similar-propertiesRight">
+            <section class="similar-propertiesImageRight" ></section>
+            <section class="similar-propertiesItemsRight"> 
+              <div class="similar-propertiesItems-background"><p>$ 650,000</p></div>
             <h4 class="similar-properties-items">4047 ponderosa dr</h4>
             <ul class="similar-properties-items-Icon" >
             <li><img src="./assets/new-bed icon.jfif" alt="a bed image"/> 4 bedrooms </li>
@@ -147,11 +164,13 @@
               <li><img src="./assets/new share icon.png" alt="share image"></li>
             </ul>
           </P><hr>
-          </section>
-          
-          <section class="similar-propertiesImageRight">
-            <img src="./assets/mombasa house 2.jfif" alt="this ia an image" />
-            <div class="similar-propertiesItems-background"><p>$ 160,000</p></div>
+            </section>
+          </div>
+         
+          <div class="similar-propertiesRight-right">
+            <section class="similar-propertiesImageRight-right" ></section>
+            <section class="similar-propertiesItemsright-right">
+              <div class="similar-propertiesItems-background"><p>$ 160,000</p></div>
             <h4 class="similar-properties-items">spring valley 4865 torrey pine ...</h4>
             <ul class="similar-properties-items-Icon">
             <li><img  src="./assets/new-bed icon.jfif" alt="a bed image"/>2 bedrooms </li>
@@ -164,14 +183,15 @@
               <li><img src="./assets/new heart icon.png" alt=" heart image"></li>
               <li><img src="./assets/new share icon.png" alt="share image"></li>
             </ul>
-          </P><hr>
-          </section>
-        </div>
+          </P><hr>  
+            </section>
+          </div>
 
+          </div>
         <!-- footer -->
         <div class="footer">
-
-          <section class="relocation-experts">
+          <div class="sections">
+            <section class="relocation-experts">
             <h4>relocation experts</h4>
             <ul>
               <li class="relocation-expert-items">hardware stores</li>
@@ -187,7 +207,6 @@
               <li class="relocation-expert-items">dentists</li>
             </ul>
           </section>
-
           <section class="property-experts">
             <h4>property experts</h4>
             <ul>
@@ -201,7 +220,6 @@
               <li class="property-experts-items">title companies</li>
             </ul>
           </section>
-
           <section class="property-type">
             <h4>property types</h4>
             <ul>
@@ -214,7 +232,7 @@
               <li class="property-type-items">fraction & timeshares</li>
               <li class="property-type-items">land</li>
             </ul>
-
+    
             <h4>owership options</h4>
             <ul>
               <li class="property-type-items">for sale</li>
@@ -222,37 +240,47 @@
               <li class="property-type-items">to let</li>
             </ul>
           </section>
-
+    
           <section class="subscribeToRecieve">
             <h4>subscribe to receive updates & alerts</h4>
+           <div class="form">
             <form action="">
               <input class='subscribeToRecieve-input' action="email" placeholder="YOUR EMAIL ADDRESS" /><button
-                action="submit"> SUBSCRIBE</button>
+             action="submit"> SUBSCRIBE</button>
             </form>
+           </div>
             
             <h4>join our social networks</h4>
             <div class="socialNetworks"></div>
               <ul>
                 <li class="socialNetworks-items">
-                  <img src="./assets/gray-facebook-icon.png" alt="facebook" />
+                  <i class="fab fa-facebook" style="font-size: 30px;" ></i>
                 </li>
-                <li class="socialNetworks-items"><img src="./assets/new-twitter.png" alt="twitter" /></li>
                 <li class="socialNetworks-items">
-                  <img src="./assets/gray-instergram-icon.png" alt="instergram" />
+                  <i class="fab fa-twitter" style="font-size: 30px;" ></i>
                 </li>
-                <li class="socialNetworks-items"><img src="./assets/gray-youtube-icon.png" alt="youTube" /></li>
-                <li class="socialNetworks-items"><img src="./assets/new linkedin icon.png" alt="linedin" /></li>
+                <li class="socialNetworks-items">
+                  <i class="fab fa-instagram" style="font-size: 30px;" ></i>
+                </li>
+                <li class="socialNetworks-items">
+                  <i class="fab fa-youtube-square" style="font-size: 30px;" ></i>
+                </li>
+                <li class="socialNetworks-items">
+                  <i class="fab fa-linkedin-in" style="font-size: 30px;" ></i>
+                </li>
               </ul>
-            </div>
           </section>
-          
-        </div>
-        <!-- copy right -->
-        <section class="copyRight"><p class="fab fa-copyright  "><hr>
-          Copyright © 2019 Properteys.inc all rights reserved terms of use | privacy policy.</p>
-          <p>brooklyn,new york 11203 (1-718-535-7711)</p>
-          <p class="copyRight-developer">Developed by jamodesigns...</p>
-        </section>
+         </div>
+           <div class="copyright"> 
+             <!-- copy right --> 
+            <section class="copyRight"><p class="copyright">
+              <hr>
+              Copyright © 2019 Properteys.inc all rights reserved terms of use | privacy policy.</p>
+              <p>brooklyn,new york 11203 (1-718-535-7711)</p>
+              <p class="copyRight-developer">Developed by jamodesigns...</p>
+            </section>
+          </div>
+      </div>
       </div>
     </body>
   </html>
